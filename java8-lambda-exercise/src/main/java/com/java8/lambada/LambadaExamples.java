@@ -8,9 +8,10 @@ public class LambadaExamples {
 		GreetingService greetingService1 = (message) -> System.out.println("Hello " + message);
 		GreetingService greetingService2 = (message) -> System.out.println("Bye " + message + " See you soon");
 
-		greetingService.greet("Chanchal"); 
+		greetingService.greet("Chanchal");
 		greetingService1.greet("Chanchal");
 		greetingService2.greet("Chanchal");
+		// sample comment
 
 		/* Math Operations */
 
